@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="to-do-list.css">
+  </head>
+  <body data-bs-theme="dark" class="p-5">
+    <div class=" card justify-content-center p-4" style="background-color: rgb(231, 30, 12);">
+      <p class="card-header border-bottom text-center "><span class="display-5 bg-black p-2  rounded-4  "> TO DO LIST</span> </p>
+     <div class="card-body mx-auto bg-black p-4 rounded-5 mt-2" >
+      <div class="todo-input-grid ">
+        <input placeholder="Todo name"
+          class="js-name-input name-input">
+        <input type="date"
+          class="js-due-date-input due-date-input">
+        <button class="add-todo-button js-add-todo-button">Add</button>
+      </div>
+  
+      <div class="js-todo-list todo-grid"></div>
+    </div>
+  </div>
+  
+
+    <script src="to-do-list.js"></script>
+  </body>
+</html>
